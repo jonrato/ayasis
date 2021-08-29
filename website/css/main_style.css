@@ -99,24 +99,22 @@ h1,h2,h3{
 .fabtheme-headings{
 	background-color: #181615;
 	color: #F3F3F3;
-    border-right: 40px solid #EF2F00;
+    border-right: 40px solid #8B4513;
 	word-wrap: break-word;
 }
 /* END OF HEADINGS */
 /* ABOUT */
 .fabtheme-about{
-	background-image: url(https://img.freepik.com/vetores-gratis/vector-estilo-africano-teste-padrao-da-viga-com-motivos-tribais_1110-446.jpg?size=338&ext=jpg&ga=GA1.2.1027600431.1623196800);
+	background-color: black;
 	color: #020202;
-	border-left: 40px solid #EF2F00;
+	border-left: 40px solid #8B4513;
 }
 /* END OF ABOUT */
 /* SERVICES */
 .fabtheme-services-1{
-	
-	background-image: url(https://st3.depositphotos.com/14867562/32599/v/600/depositphotos_325995988-stock-illustration-tribal-seamless-pattern-african-mud.jpg);
-
+	background-color: black;
 	color: #020202;
-	border-right: 40px solid #EF2F00;
+	border-right: 40px solid #8B4513;
 }
 .fabtheme-services-2{
 	background-color: #FCE694;
@@ -129,7 +127,7 @@ h1,h2,h3{
 .fabtheme-count{
 	background-image: url(https://st2.depositphotos.com/1000840/7560/v/600/depositphotos_75604149-stock-illustration-african-pattern.jpg);
 	color: #020202;
-    border-left: 40px solid #EF2F00;
+    border-left: 40px solid #8B4513;
 	word-wrap: break-word;
 }
 /* END OF COUNT */
@@ -137,7 +135,7 @@ h1,h2,h3{
 .fabtheme-reviews-1{
 	background-color: #181615;
 	color: #020202;
-    border-left: 40px solid #EF2F00;
+    border-left: 40px solid #8B4513;
 }
 .fabtheme-reviews-2{
 	color: #020202;
@@ -154,9 +152,9 @@ h1,h2,h3{
 /* END OF REVIEWS */
 /* TEAM */
 .fabtheme-team-1{
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4O2g9ldeyMg45gVt0r04c2bSCmlNJm_qYo4DbZs23iu50zcmvBaynkMBWE5ARDLkgh0s&usqp=CAU);
+	background-color: black;
 	color: #020202;
-	border-right: 40px solid #EF2F00;
+	border-right: 40px solid #8B4513;
 }
 #team .fabtheme-team-2{
 	background-color: #FFFBFC;
@@ -167,9 +165,9 @@ h1,h2,h3{
 /* END OF TEAM */
 /* BLOG */
 .fabtheme-blog-1{
-	background-image:url(https://img.freepik.com/vetores-gratis/vector-estilo-africano-teste-padrao-da-viga-com-motivos-tribais_1110-442.jpg?size=338&ext=jpg);
+	background-color: black;
 	color: #020202;
-	border-left: 40px solid #EF2F00;
+	border-left: 40px solid #8B4513;
 }
 .fabtheme-blog-2{
 	background-color: #bebebe;
@@ -192,17 +190,17 @@ h1,h2,h3{
 /* END OF CONTACT */
 /* NEWSLETTER */
 .fabtheme-newsletter{
-	background-image: url(https://media.istockphoto.com/vectors/peru-ikat-tribal-pattern-vector-seamless-ethnic-border-african-fabric-vector-id1203903314);
+	background-color: black;
 	text-shadow: 8px 5px 8px white;
 	font-weight: bolder;
 	color: #020202;
-	border-right: 40px solid #EF2F00;
+	border-right: 40px solid #8B4513;
 }
 /* END OF NEWSLETTER */
 /* PARALLAX */
 .fabtheme-parallax-1{
 	height: 100%;
-    background-image: url("https://revistacult.uol.com.br/home/wp-content/uploads/2017/10/bibliopreta.jpg");
+    background-image: url("/home/rato/Documentos/Programming Store/Clientes/Coletivo de Cultura Cidade Tiradentes/template/website/images/logo.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,7 +208,7 @@ h1,h2,h3{
 }
 .fabtheme-parallax-2{
 	height: 100%;
-    background-image: url("https://www.defensoria.ba.def.br/wp-content/uploads/2020/07/whatsapp-image-2020-07-30-at-15-16-18.jpeg");
+    background-image: url("/home/rato/Documentos/Programming Store/Clientes/Coletivo de Cultura Cidade Tiradentes/template/website/images/other/natureza.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -235,11 +233,11 @@ h1,h2,h3{
 /* END OF PARALLAX */
 /* NAVIGATION */
 #fabtheme-navbar{
-	background-color: #EF2F00;;
+	background-color: #8B4513;;
 	color: #F3F3F3;
 }
 #fabtheme-navbar.solid{
-	background-color: #EF2F00;
+	background-color: #8B4513;
 	color: #F3F3F3;
 	transition-delay: 0.2s;
 	transition-property: all;
@@ -260,7 +258,7 @@ h1,h2,h3{
 /* END OF LINK SHOW */
 /* LINKS */
 .fabtheme-link-1{
-	color: #EF2F00;
+	color: #8B4513;
 }
 .fabtheme-link-1:hover{
 	color: #bebebe;
