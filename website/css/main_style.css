@@ -191,16 +191,15 @@ h1,h2,h3{
 /* NEWSLETTER */
 .fabtheme-newsletter{
 	background-color: black;
-	text-shadow: 8px 5px 8px white;
 	font-weight: bolder;
-	color: #020202;
+	color: white;
 	border-right: 40px solid #8B4513;
 }
 /* END OF NEWSLETTER */
 /* PARALLAX */
 .fabtheme-parallax-1{
 	height: 100%;
-    background-image: url("/home/rato/Documentos/Programming Store/Clientes/Coletivo de Cultura Cidade Tiradentes/template/website/images/logo.png");
+    background-image: url("../images/logo.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,7 +207,7 @@ h1,h2,h3{
 }
 .fabtheme-parallax-2{
 	height: 100%;
-    background-image: url("/home/rato/Documentos/Programming Store/Clientes/Coletivo de Cultura Cidade Tiradentes/template/website/images/other/natureza.jpeg");
+    background-image: url("../images/other/natureza.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
