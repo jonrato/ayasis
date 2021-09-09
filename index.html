@@ -362,14 +362,40 @@ periféricas residentes em Cidade Tiradentes.</p>
 				<div class="row h-100 align-items-center mt-5 justify-content-start">
 					<div class="col-11 col-sm-11 col-md-10 col-lg-10 col-xl-9 pl-0">
 						<div class="p-3 p-sm-4 p-md-4 p-lg-5 p-xl-5 text-left wow fadeInLeft fabtheme-newsletter" data-wow-duration="3s">
+
+							<!--Script Lista-->
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+								<script src="https://smtpjs.com/v3/smtp.js"></script>
+	                            <script type="text/javascript">
+	                            	function sendEmail() {
+	                            		var mailSubject = document.getElementById("mailSubject").value
+										//var mailBody = document.getElementById("mailBody").value
+							             Email.send({
+							                // Host: "smtp.gmail.com",
+							                //  Username: "Your mail here",
+							                //  Password: "Your Password here",
+							                SecureToken: "caf0df25-a769-4aa4-a905-ef29abaf1774",
+							                From: 'jonatas_ferreira@usp.br',
+							                To: 'jonatas_ferreira@usp.br',
+							                Subject: "QUERO ENTRAR PARA A LISTA",
+							                Body: mailSubject
+							            })
+							                .then(function (message) {
+							                    alert("Email Enviado Com Sucesso!!!")
+							                });
+							        }
+	                            </script>
+							<!--END Script Lista-->
+
 							<h2 class="pb-2" style="font-weight: bolder;">Entre para a nossa lista e receba nossas novidades</h2>
 							<form class="input-group fabtheme-field justify-content-center">
-								<input class="form-control" type="email" placeholder="Endereço de Email" aria-label="newsletter" required="required">
+								<input class="form-control" type="email" id="mailSubject" placeholder="Endereço de Email" aria-label="newsletter" required="required">
 								<div class="input-group-append fabtheme-field">
-									<a href="javacript:void(0);" class="btn fabtheme-button">Entrar</a>
+									<a onclick="sendEmail();" class="btn fabtheme-button">Entrar</a>
 								</div>
 							</form>
 						</div>
+						
 					</div>
 				</div>
 			</div>
