@@ -81,6 +81,12 @@ Description:    Custom CSS
 /* END OF TABLE OF CONTENTS */
 /* CUSTOM CSS */
 /* BODY */
+.arraste{
+	font-size: 1.5rem;
+	font-family: 'Raleway', sans-serif;
+	color: brown;
+}
+
 #fabtheme-body{
 	background-color: #181615;
 
