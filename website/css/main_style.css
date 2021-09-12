@@ -84,7 +84,9 @@ Description:    Custom CSS
 .arraste{
 	font-size: 1.5rem;
 	font-family: 'Raleway', sans-serif;
-	color: brown;
+	color: white;
+	background-color: black;
+	margin-bottom: 0rem;
 }
 
 #fabtheme-body{
